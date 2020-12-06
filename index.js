@@ -32,14 +32,7 @@ function mapToSquare(sourceArray){
    sourceArray.reduce()
  }
  
- function reduceToAllTrue(sourceArray){
-  for(let i=0;i<sourceArray.length;i++){
-    if(!sourceArray[i]) 
-    return false;
-  }
-  return true;
-}
- 
+
  /*describe("reduceToAllTrue returns false when any value is falsy", function() {
     it("reduces correctly", function(){
       sourceArray = [1, 2, true, "razmatazz", false]
