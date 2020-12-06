@@ -26,7 +26,7 @@ function mapToSquare(sourceArray){
 
  sourceArray = [1,2,3];
  startingPoint = 100;
- function reduceToTotal(sourceArray){
+ function reduceToTotal(sourceArray, startingPoint){
    const reducer = (accumulator, currentValue) => accumulator + currentValue;
    return sourceArray.reduce(reducer)
  }
@@ -44,14 +44,7 @@ function mapToSquare(sourceArray){
  
 
 /*
-  describe("reduceToTotal returns a running total when given a starting point", function() {
-    it("reduces correctly", function(){
-      sourceArray = [1,2,3]
-      startingPoint = 100
-      expect(reduceToTotal(sourceArray, startingPoint)).to.equal(106)
-    })
-  })
-
+  
   describe("reduceToAllTrue returns true when all values are truthy", function() {
     it("reduces correctly", function(){
       sourceArray = [1, 2, true, "razmatazz"]
