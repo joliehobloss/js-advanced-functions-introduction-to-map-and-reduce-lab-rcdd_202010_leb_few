@@ -24,15 +24,12 @@ function mapToSquare(sourceArray){
   return array;
 }
 
- function reduceToAllTrue(sourceArray){
+ function reduceToTotal(sourceArray, startingPoint){
    const reducer = (accumulator, currentValue) => accumulator + currentValue;
    return sourceArray.reduce(reducer)
  }
  
-  function reduceToAllTrue(sourceArray){
-   const reducer = (accumulator, currentValue) => accumulator + currentValue;
-   return sourceArray.reduce(reducer)
- }
+ 
  
 
  
