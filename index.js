@@ -29,7 +29,9 @@ function mapToSquare(sourceArray){
    return sourceArray.reduce(reducer,startingPoint)
  }
  
- function 
+ function reduceToAllTrue(sourceArray){
+   
+ }
  
  /*describe("reduceToAllTrue returns false when any value is falsy", function() {
     it("reduces correctly", function(){
