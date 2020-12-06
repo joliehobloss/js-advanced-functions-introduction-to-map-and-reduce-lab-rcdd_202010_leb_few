@@ -56,6 +56,13 @@ function mapToSquare(sourceArray){
 })*/
  
  
+  describe("mapToNoChange returns an array with the original values", function() {
+    it("transforms correctly", function(){
+      dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
+      expect(mapToNoChange(dune)).to.eql(dune)
+    })
+  })
+ 
  
  
 
