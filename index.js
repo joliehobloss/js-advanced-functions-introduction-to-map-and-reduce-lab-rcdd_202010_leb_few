@@ -5,7 +5,6 @@ function mapToNegativize(sourceArray){
 }
 mapToNegativize([1, 2, 3, -9]);
 
-
 function mapToNoChange(sourceArray){
   let array=[];
   array=sourceArray.map(element=>array=element);
