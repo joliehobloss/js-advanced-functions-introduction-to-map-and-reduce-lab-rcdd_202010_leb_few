@@ -6,12 +6,12 @@ function mapToNegativize(sourceArray){
 mapToNegativize([1, 2, 3, -9]);
 
 
-/*function mapToNoChange(sourceArray){
+function mapToNoChange(sourceArray){
   let array=[];
   array=sourceArray.map(element=>array.push(element));
   return array;
 }
-mapToNoChange(dune);*/
+mapToNoChange(dune);
 
 function mapToDouble(sourceArray){
    let array=sourceArray.map(element=>element*2)
