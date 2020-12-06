@@ -31,7 +31,7 @@ function mapToSquare(sourceArray){
  
  function reduceToTotal(sourceArray, startingPoint){
    const reducer = (accumulator, currentValue) => accumulator + currentValue;
-   return sourceArray.reduce(reducer)
+   return sourceArray.reduce(reducer,startingPoint)
  }
  
  
