@@ -29,7 +29,8 @@ function mapToSquare(sourceArray){
  }
  
  function reduceToAllTrue(sourceArray){
-   sourceArray.reduce()
+   const reducer = (accumulator, currentValue) => accumulator + currentValue;
+   sourceArray.reduce(reducer,)
  }
  
 
