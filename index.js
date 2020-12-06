@@ -27,6 +27,8 @@ function mapToSquare(sourceArray){
  function reduceToTotal(sourceArray, startingPoint){
    return sourceArray.reduce(reducer)
  }
+ 
+ 
 
 /*describe('my own reduce-like methods', function() {
   describe("reduceToTotal returns a running total when not given a starting point", function() {
