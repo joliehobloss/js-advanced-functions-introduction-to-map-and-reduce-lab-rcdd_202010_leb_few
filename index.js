@@ -8,8 +8,8 @@ mapToNegativize([1, 2, 3, -9]);
 
 function mapToNoChange(sourceArray){
   let array=[];
-  array=sourceArray.map(element=>array.push(element));
-  return array;
+  array=sourceArray.map(element=>array=element);
+ return array;
 }
 mapToNoChange(dune);
 
@@ -56,12 +56,6 @@ function mapToSquare(sourceArray){
 })*/
  
  
-  describe("mapToNoChange returns an array with the original values", function() {
-    it("transforms correctly", function(){
-      dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
-      expect(mapToNoChange(dune)).to.eql(dune)
-    })
-  })
  
  
  
