@@ -24,16 +24,20 @@ function mapToSquare(sourceArray){
   return array;
 }
 
+ sourceArray = [1,2,3];
+ startingPoint = 100;
  function reduceToTotal(sourceArray, startingPoint){
    const reducer = (accumulator, currentValue) => accumulator + currentValue;
    return sourceArray.reduce(reducer)
  }
  
  
- /*function reduceToTotal(sourceArray, startingPoint){
+ function reduceToTotal(sourceArray, startingPoint){
    const reducer = (accumulator, currentValue) => accumulator + currentValue;
    return sourceArray.reduce(reducer,startingPoint)
- }*/
+ }
+ 
+ reduceToTotal(sourceArray, startingPoint);
  
  
 
