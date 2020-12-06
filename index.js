@@ -31,14 +31,7 @@ function mapToSquare(sourceArray){
  
  
 
-/*describe('my own reduce-like methods', function() {
-  describe("reduceToTotal returns a running total when not given a starting point", function() {
-    it("reduces correctly", function(){
-      sourceArray = [1,2,3]
-      expect(reduceToTotal(sourceArray)).to.equal(6)
-    })
-  })
-
+/*
   describe("reduceToTotal returns a running total when given a starting point", function() {
     it("reduces correctly", function(){
       sourceArray = [1,2,3]
